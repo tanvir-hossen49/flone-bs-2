@@ -1,1 +1,9 @@
+//customized bootstrap
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+//import boostrap from node module
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+//all custome css code
