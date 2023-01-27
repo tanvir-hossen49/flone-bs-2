@@ -7,3 +7,19 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 //all custome css code
+body{
+    background-color: #fff;
+    width:100vw;
+    min-height: 100vh;
+}
+
+.li-bar{
+    width:1px;
+    height: 15px;
+    background-color: #d5d4d4;
+}
+.nav-icon{
+    font-size: 23px;
+    color:#8f8f8f;
+    
+}

@@ -10770,5 +10770,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #fff;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.li-bar {
+  width: 1px;
+  height: 15px;
+  background-color: #d5d4d4;
+}
+
+.nav-icon {
+  font-size: 23px;
+  color: #8f8f8f;
+  font-weight: 200;
+}
 
 /*# sourceMappingURL=style.css.map */
