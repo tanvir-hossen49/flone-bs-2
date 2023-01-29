@@ -1,7 +1,6 @@
 //customized bootstrap
 $font-family-sans-serif: 'Poppins', sans-serif;
 
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
 //import boostrap from node module
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -11,8 +10,36 @@ body{
     background-color: #fff;
     width:100vw;
     min-height: 100vh;
+    
 }
 
+.custome-dropdown {
+    position: relative;
+}
+.custome-dropdown:hover ul{
+    display: block;
+    li:hover{
+        text-decoration: underline;
+        transform: translateX(8px);
+    }
+}
+.custome-dropdown ul{
+    display: none;
+    min-width: 100px;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
+    padding:0.8rem;
+    border-radius: 0.15rem;
+    margin-top: 0.5rem;
+    transition: 0.3s linear;
+
+    li{
+        margin-bottom: 0.3rem;
+        transition: 0.3s linear;
+    }
+}
 .li-bar{
     width:1px;
     height: 15px;
@@ -21,5 +48,19 @@ body{
 .nav-icon{
     font-size: 23px;
     color:#8f8f8f;
-    
+}
+
+#main-carousel .carousel-inner{
+    height: 500px;
+}
+
+.carousel-control-prev{
+    left:-10rem;
+}
+.carousel-control-next{
+    right:-10rem;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    filter: invert(100%);
 }

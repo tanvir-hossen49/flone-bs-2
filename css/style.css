@@ -10776,6 +10776,35 @@ body {
   min-height: 100vh;
 }
 
+.custome-dropdown {
+  position: relative;
+}
+
+.custome-dropdown:hover ul {
+  display: block;
+}
+.custome-dropdown:hover ul li:hover {
+  text-decoration: underline;
+  transform: translateX(8px);
+}
+
+.custome-dropdown ul {
+  display: none;
+  min-width: 100px;
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
+  padding: 0.8rem;
+  border-radius: 0.15rem;
+  margin-top: 0.5rem;
+  transition: 0.3s linear;
+}
+.custome-dropdown ul li {
+  margin-bottom: 0.3rem;
+  transition: 0.3s linear;
+}
+
 .li-bar {
   width: 1px;
   height: 15px;
@@ -10785,7 +10814,23 @@ body {
 .nav-icon {
   font-size: 23px;
   color: #8f8f8f;
-  font-weight: 200;
+}
+
+#main-carousel .carousel-inner {
+  height: 500px;
+}
+
+.carousel-control-prev {
+  left: -10rem;
+}
+
+.carousel-control-next {
+  right: -10rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
 }
 
 /*# sourceMappingURL=style.css.map */
