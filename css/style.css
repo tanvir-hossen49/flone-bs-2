@@ -10775,6 +10775,7 @@ body {
   background-color: #f6f6f6;
   width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .custome-dropdown {
@@ -10829,16 +10830,18 @@ body {
   color: #8f8f8f;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  display: inline !important;
+  width: 0 !important;
+}
+
 #main-carousel .carousel-inner {
   height: 500px;
 }
 
 .carousel-control-prev {
-  left: -5rem;
-}
-
-.carousel-control-next {
-  right: -5rem;
+  left: -4rem;
 }
 
 .carousel-control-prev,
@@ -10941,6 +10944,42 @@ body {
 }
 .single-banner .banner-content a i {
   line-height: 25px;
+}
+
+.section-title h2, .section-title .h2 {
+  display: inline-block;
+  position: relative;
+}
+
+.section-title h2::before, .section-title .h2::before {
+  position: absolute;
+  top: 17px;
+  left: -100px;
+  width: 80px;
+  height: 2px;
+  content: "";
+  background-color: #000;
+}
+
+.section-title h2::after, .section-title .h2::after {
+  position: absolute;
+  top: 17px;
+  right: -100px;
+  width: 80px;
+  height: 2px;
+  content: "";
+  background-color: #000;
+}
+
+.product-tab-list {
+  padding-bottom: 55px;
+  padding-top: 30px;
+}
+.product-tab-list a.active h4, .product-tab-list a.active .h4, .product-tab-list a h4:hover, .product-tab-list a .h4:hover {
+  color: #000;
+}
+.product-tab-list a h4, .product-tab-list a .h4 {
+  color: #555;
 }
 
 /*# sourceMappingURL=style.css.map */

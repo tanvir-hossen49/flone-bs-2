@@ -11,6 +11,7 @@ body {
   background-color: #f6f6f6;
   width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .custome-dropdown {
@@ -61,15 +62,18 @@ body {
   color: #8f8f8f;
 }
 
+.carousel-control-prev,
+.carousel-control-next{
+    display: inline !important;
+    width: 0 !important;
+}
+
 #main-carousel .carousel-inner {
   height: 500px;
 }
 
 .carousel-control-prev {
-  left: -5rem;
-}
-.carousel-control-next {
-  right: -5rem;
+  left: -4rem;
 }
 .carousel-control-prev,
 .carousel-control-next {
@@ -174,5 +178,41 @@ body {
         line-height: 25px;
       }
     }
+  }
+}
+
+// product area section
+.section-title h2{
+    display: inline-block;
+    position: relative;
+}
+.section-title h2::before{
+    position: absolute;
+    top: 17px;
+    left: -100px;
+    width: 80px;
+    height: 2px;
+    content: "";
+    background-color: #000;
+}
+.section-title h2::after{
+    position: absolute;
+    top: 17px;
+    right: -100px;
+    width: 80px;
+    height: 2px;
+    content: "";
+    background-color: #000;
+}
+//product tab list
+.product-tab-list{
+  padding-bottom: 55px;
+  padding-top: 30px;
+
+  a.active h4, a h4:hover{
+    color: #000;
+  }
+  a h4{
+    color:#555;
   }
 }
