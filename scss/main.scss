@@ -1,182 +1,178 @@
 //customized bootstrap
-$font-family-sans-serif: 'Poppins', sans-serif;
+$font-family-sans-serif: "Poppins", sans-serif;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,300&display=swap");
 //import boostrap from node module
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 //all custome css code
-body{
-    background-color: #f6f6f6;
-    width:100vw;
-    min-height: 100vh;
-    
+body {
+  background-color: #f6f6f6;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .custome-dropdown {
-    position: relative;
+  position: relative;
 }
-.custome-dropdown:hover .navbar-nav{
-    display: flex;
-   
+.custome-dropdown:hover .navbar-nav {
+  display: flex;
 }
-.custome-dropdown .navbar-nav{
-    display: none;
-    position: absolute;
-    min-width: 100px;
-    z-index: 100;
-    background-color: #fff;
-    box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
-    padding:0.8rem;
-    border-radius: 0.15rem;
-    margin-top: 0.5rem;
-    transition: 0.3s linear;
+.custome-dropdown .navbar-nav {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
+  padding: 0.8rem;
+  border-radius: 0.15rem;
+  margin-top: 0.5rem;
+  transition: 0.3s linear;
 
-    li{
-        margin-bottom: .5rem;
-        list-style: none;
-    }
-    
+  li {
+    margin-bottom: 0.5rem;
+    list-style: none;
+  }
 }
-.mega-manu{
-    width: 700px;
-    justify-content: space-between;
-    color: #010101;
-    li ul{
-        padding: 2rem;
-        font-weight: 400;
-    }
-    li ul li:first-child{
-        margin-bottom: 1rem;
-        font-size: 15px;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
+.mega-manu {
+  width: 700px;
+  justify-content: space-between;
+  color: #010101;
+  li ul {
+    padding: 2rem;
+    font-weight: 400;
+  }
+  li ul li:first-child {
+    margin-bottom: 1rem;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
 }
-.li-bar{
-    width:1px;
-    height: 15px;
-    background-color: #d5d4d4;
+.li-bar {
+  width: 1px;
+  height: 15px;
+  background-color: #d5d4d4;
 }
-.nav-icon{
-    font-size: 23px;
-    color:#8f8f8f;
+.nav-icon {
+  font-size: 23px;
+  color: #8f8f8f;
 }
 
-#main-carousel .carousel-inner{
-    height: 500px;
+#main-carousel .carousel-inner {
+  height: 500px;
 }
 
-.carousel-control-prev{
-    left:-5rem;
+.carousel-control-prev {
+  left: -5rem;
 }
-.carousel-control-next{
-    right:-5rem;
+.carousel-control-next {
+  right: -5rem;
 }
 .carousel-control-prev,
-.carousel-control-next{
-    filter: invert(100%);
+.carousel-control-next {
+  filter: invert(100%);
 }
 
-.slider-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f6f6f6;
-    width: 100%;
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+  width: 100%;
 
-    .slider-text h3{
-        font-size: 24px;
-        font-weight: 500;
-        margin: 0;
-        letter-spacing: 1px;
-    }
-    .slider-text h1{
-        font-size: 72px;
-        line-height: 97px;
-        margin: 15px 0 38px;
-        color: #010101;
-        font-weight: 400;
-    }
-}
-.shop-now-btn{
-    font-size: 16px;
-    line-height: 1;
-    display: inline-block;
-    padding: 19px 50px;
-    text-transform: uppercase;
-    color: #010101;
-    border: 1px solid #333;
+  .slider-text h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
     letter-spacing: 1px;
-    box-shadow: inset 0 0 0 0 #6f42c1;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
+  }
+  .slider-text h1 {
+    font-size: 72px;
+    line-height: 97px;
+    margin: 15px 0 38px;
+    color: #010101;
+    font-weight: 400;
+  }
+}
+.shop-now-btn {
+  font-size: 16px;
+  line-height: 1;
+  display: inline-block;
+  padding: 19px 50px;
+  text-transform: uppercase;
+  color: #010101;
+  border: 1px solid #333;
+  letter-spacing: 1px;
+  box-shadow: inset 0 0 0 0 #6f42c1;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
 }
 .shop-now-btn:hover {
-    box-shadow: inset 400px 0 0 0 #6f42c1;
-    color:#fff;
+  box-shadow: inset 400px 0 0 0 #6f42c1;
+  color: #fff;
 }
 
 // banner section
-.single-banner{
-    position: relative;
-    border: 4px solid #fff;
-    overflow: hidden;
-    margin: 5rem 0;
-   
-    img{
-        width:100%;
-        transition: all .5s ease 0s;
-        transform: scale(1);
+.single-banner {
+  position: relative;
+  border: 4px solid #fff;
+  overflow: hidden;
+  margin: 5rem 0;
+
+  img {
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    transform: scale(1);
+  }
+  &:hover img {
+    transform: scale(1.2);
+  }
+  .banner-content {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    h3 {
+      margin: 0;
+      font-family: "Cormorant Garamond";
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 30px;
+      color: #617d05;
     }
-    &:hover img{
-        transform: scale(1.2);
+    h4 {
+      font-family: "Cormorant Garamond";
+      font-size: 18px;
+      font-weight: 600;
+      margin: 3px 0 58px;
+
+      span {
+        font-size: 20px;
+        line-height: 1;
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        margin: 0 0 0 2px;
+        color: #617d05;
+      }
     }
-    .banner-content{
-        position: absolute;
-        top:30px;
-        left: 30px;
+    a {
+      font-size: 14px;
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      text-align: center;
+      border-radius: 100%;
+      color: #617d05;
+      border: 2px solid #617d05;
 
-        h3{
-            margin: 0;
-            font-family: 'Cormorant Garamond';
-            font-size: 36px;
-            font-weight: 600;
-            line-height: 30px;
-            color: #617d05;
-        }
-        h4{
-            font-family: 'Cormorant Garamond';
-            font-size: 18px;
-            font-weight: 600;
-            margin: 3px 0 58px;
-
-            span{
-                font-size: 20px;
-                line-height: 1;
-                position: relative;
-                top: 2px;
-                display: inline-block;
-                margin: 0 0 0 2px;
-                color: #617d05;
-            }
-        }
-        a{
-            font-size: 14px;
-            display: inline-block;
-            width: 28px;
-            height: 28px;
-            text-align: center;
-            border-radius: 100%;
-            color: #617d05;
-            border: 2px solid #617d05;
-
-            i{
-                line-height: 25px;
-            }
-        }
+      i {
+        line-height: 25px;
+      }
     }
-
+  }
 }
