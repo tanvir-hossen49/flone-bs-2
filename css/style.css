@@ -11171,4 +11171,50 @@ body {
   color: #6a6a6a;
 }
 
+.subcribe-wraper {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.subcribe-wraper h2, .subcribe-wraper .h2 {
+  font-size: 48px;
+  margin-right: 23px;
+  color: #010101;
+}
+.subcribe-wraper p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #696969;
+  margin-right: 23px;
+}
+.subcribe-wraper .subscribe-form {
+  position: relative;
+}
+.subcribe-wraper .subscribe-form .email {
+  width: 100%;
+  font-size: 14px;
+  height: 45px;
+  padding: 2px 50px 2px 0px;
+  color: #333;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #e2e2e2;
+  background-color: transparent;
+  box-shadow: none;
+}
+.subcribe-wraper .subscribe-form .submit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+}
+.subcribe-wraper .subscribe-form .submit .button {
+  font-size: 30px;
+  height: 45px;
+  padding: 0;
+  background-color: transparent;
+  transition: 0.3s;
+  color: #cacaca;
+  border: none;
+}
+
 /*# sourceMappingURL=style.css.map */
